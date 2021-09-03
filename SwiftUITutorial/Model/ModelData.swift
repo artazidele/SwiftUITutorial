@@ -7,7 +7,7 @@
 
 import Foundation
 import Combine
-
+// SECTION 1 Create a View to Represent a UIPageViewController
 final class ModelData: ObservableObject {
     @Published var landmarks: [Landmark] = load("landmarkData.json")
     var hikes: [Hike] = load("hikeData.json")
