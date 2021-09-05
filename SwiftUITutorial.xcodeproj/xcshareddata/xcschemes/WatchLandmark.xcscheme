@@ -103,8 +103,10 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       notificationPayloadFile = "WatchLandmark Extension/PushNotificationPayload.apns">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/SwiftUITutorial">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C26B6E0A26E1EADC0087F9E5"
@@ -112,7 +114,7 @@
             BlueprintName = "WatchLandmark"
             ReferencedContainer = "container:SwiftUITutorial.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -120,8 +122,10 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/SwiftUITutorial">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C26B6E0A26E1EADC0087F9E5"
@@ -129,7 +133,16 @@
             BlueprintName = "WatchLandmark"
             ReferencedContainer = "container:SwiftUITutorial.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C26B6E0A26E1EADC0087F9E5"
+            BuildableName = "WatchLandmark.app"
+            BlueprintName = "WatchLandmark"
+            ReferencedContainer = "container:SwiftUITutorial.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
